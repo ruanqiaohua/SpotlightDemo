@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6F22B2C029A47E099C486D0 /* Pods_SpotlightDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5690A5E4C97235B22B57AE /* Pods_SpotlightDemo.framework */; };
+		F18873C01E6D79050056A6B9 /* movie.plist in Resources */ = {isa = PBXBuildFile; fileRef = F18873BF1E6D79050056A6B9 /* movie.plist */; };
+		F18873C51E6D798B0056A6B9 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18873C41E6D798B0056A6B9 /* MovieListTableViewController.swift */; };
+		F18873C71E6D7A480056A6B9 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18873C61E6D7A480056A6B9 /* MovieListTableViewCell.swift */; };
 		F1E29A1B1E6D3A0B003B6ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E29A1A1E6D3A0B003B6ADE /* AppDelegate.swift */; };
-		F1E29A1D1E6D3A0B003B6ADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E29A1C1E6D3A0B003B6ADE /* ViewController.swift */; };
 		F1E29A201E6D3A0B003B6ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E29A1E1E6D3A0B003B6ADE /* Main.storyboard */; };
 		F1E29A221E6D3A0B003B6ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E29A211E6D3A0B003B6ADE /* Assets.xcassets */; };
 		F1E29A251E6D3A0B003B6ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E29A231E6D3A0B003B6ADE /* LaunchScreen.storyboard */; };
+		F1E29A501E6E44FB003B6ADE /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E29A4F1E6E44FB003B6ADE /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A86F452A7F06AE68B17A9521 /* Pods-SpotlightDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightDemo/Pods-SpotlightDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CF5690A5E4C97235B22B57AE /* Pods_SpotlightDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18873BF1E6D79050056A6B9 /* movie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movie.plist; sourceTree = "<group>"; };
+		F18873C41E6D798B0056A6B9 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		F18873C61E6D7A480056A6B9 /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
 		F1E29A171E6D3A0B003B6ADE /* SpotlightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E29A1A1E6D3A0B003B6ADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1E29A1C1E6D3A0B003B6ADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1E29A1F1E6D3A0B003B6ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1E29A211E6D3A0B003B6ADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1E29A241E6D3A0B003B6ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1E29A261E6D3A0B003B6ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E29A4F1E6E44FB003B6ADE /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		F4FE283B59EB19856752FBD6 /* Pods-SpotlightDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightDemo/Pods-SpotlightDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F22B2C029A47E099C486D0 /* Pods_SpotlightDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3D1A47595C1D3895F3B6E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4FE283B59EB19856752FBD6 /* Pods-SpotlightDemo.debug.xcconfig */,
+				A86F452A7F06AE68B17A9521 /* Pods-SpotlightDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B8FE1B579170430775FD39F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5690A5E4C97235B22B57AE /* Pods_SpotlightDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1E29A0E1E6D3A0B003B6ADE = {
 			isa = PBXGroup;
 			children = (
+				F18873BF1E6D79050056A6B9 /* movie.plist */,
 				F1E29A191E6D3A0B003B6ADE /* SpotlightDemo */,
 				F1E29A181E6D3A0B003B6ADE /* Products */,
+				0D3D1A47595C1D3895F3B6E5 /* Pods */,
+				5B8FE1B579170430775FD39F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				F1E29A1A1E6D3A0B003B6ADE /* AppDelegate.swift */,
-				F1E29A1C1E6D3A0B003B6ADE /* ViewController.swift */,
+				F18873C41E6D798B0056A6B9 /* MovieListTableViewController.swift */,
+				F18873C61E6D7A480056A6B9 /* MovieListTableViewCell.swift */,
+				F1E29A4F1E6E44FB003B6ADE /* MovieDetailViewController.swift */,
 				F1E29A1E1E6D3A0B003B6ADE /* Main.storyboard */,
 				F1E29A211E6D3A0B003B6ADE /* Assets.xcassets */,
 				F1E29A231E6D3A0B003B6ADE /* LaunchScreen.storyboard */,
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1E29A291E6D3A0B003B6ADE /* Build configuration list for PBXNativeTarget "SpotlightDemo" */;
 			buildPhases = (
+				1ED23E16D4FDA270696B7157 /* [CP] Check Pods Manifest.lock */,
 				F1E29A131E6D3A0B003B6ADE /* Sources */,
 				F1E29A141E6D3A0B003B6ADE /* Frameworks */,
 				F1E29A151E6D3A0B003B6ADE /* Resources */,
+				99ABEE4A30F20E318A793F06 /* [CP] Embed Pods Frameworks */,
+				3DD75793A06481DB549835F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +133,7 @@
 					F1E29A161E6D3A0B003B6ADE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8KNDMU75FD;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1E29A251E6D3A0B003B6ADE /* LaunchScreen.storyboard in Resources */,
+				F18873C01E6D79050056A6B9 /* movie.plist in Resources */,
 				F1E29A221E6D3A0B003B6ADE /* Assets.xcassets in Resources */,
 				F1E29A201E6D3A0B003B6ADE /* Main.storyboard in Resources */,
 			);
@@ -132,12 +170,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED23E16D4FDA270696B7157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD75793A06481DB549835F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotlightDemo/Pods-SpotlightDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99ABEE4A30F20E318A793F06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotlightDemo/Pods-SpotlightDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1E29A131E6D3A0B003B6ADE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E29A1D1E6D3A0B003B6ADE /* ViewController.swift in Sources */,
+				F18873C51E6D798B0056A6B9 /* MovieListTableViewController.swift in Sources */,
+				F1E29A501E6E44FB003B6ADE /* MovieDetailViewController.swift in Sources */,
+				F18873C71E6D7A480056A6B9 /* MovieListTableViewCell.swift in Sources */,
 				F1E29A1B1E6D3A0B003B6ADE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,21 +347,28 @@
 		};
 		F1E29A2A1E6D3A0B003B6ADE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FE283B59EB19856752FBD6 /* Pods-SpotlightDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8KNDMU75FD;
 				INFOPLIST_FILE = SpotlightDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruanqiaohua.SpotlightDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F1E29A2B1E6D3A0B003B6ADE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86F452A7F06AE68B17A9521 /* Pods-SpotlightDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8KNDMU75FD;
 				INFOPLIST_FILE = SpotlightDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +397,7 @@
 				F1E29A2B1E6D3A0B003B6ADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
